@@ -1,48 +1,3 @@
-/* Global layout */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  block-size: 100%;
-}
-
-.page {
-  display: flex;
-  align-items: center;
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-/* H1 title */
-
 .title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
@@ -51,21 +6,6 @@ ol {
   line-height: 94%;
 }
 
-/* Hiding an element */
-
-.visually-hidden {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
-/* Placeholder */
-
 ::-moz-placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -73,8 +13,6 @@ ol {
 ::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
-
-/* Buttons */
 
 .button {
   font-family: "Fira Sans Condensed", sans-serif;
@@ -108,14 +46,10 @@ ol {
   width: 100%;
 }
 
-/* Templates */
-
 .cards-list-item-template {
   display: flex;
   flex-direction: column;
 }
-
-/* Result container */
 
 .result {
   display: flex;
@@ -135,8 +69,6 @@ ol {
   width: 711px;
   height: 386px;
 }
-
-/* Search form */
 
 .search-form {
   display: flex;
@@ -216,8 +148,6 @@ ol {
   align-self: flex-end;
   width: 190px;
 }
-
-/* Card list */
 
 .content {
   margin: 0 auto;
